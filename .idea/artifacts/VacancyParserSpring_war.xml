@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VacancyParserSpring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="TestSpring-1.0.war">
+      <element id="artifact" artifact-name="VacancyParserSpring:war exploded" />
+    </root>
+  </artifact>
+</component>
