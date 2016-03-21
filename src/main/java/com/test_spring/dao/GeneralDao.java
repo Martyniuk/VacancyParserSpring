@@ -6,6 +6,4 @@ package com.test_spring.dao;
 public interface GeneralDao<T> {
 
     void save(T t);
-
-
 }

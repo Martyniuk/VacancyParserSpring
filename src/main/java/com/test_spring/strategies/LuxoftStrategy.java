@@ -1,6 +1,6 @@
 package com.test_spring.strategies;
 
-import com.test_spring.bean.Vacancy;
+import com.test_spring.models.Vacancy;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;

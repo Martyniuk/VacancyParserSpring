@@ -1,7 +1,7 @@
 package com.test_spring.tools;
 
 
-import com.test_spring.bean.Vacancy;
+import com.test_spring.models.Vacancy;
 import com.test_spring.strategies.Strategy;
 
 import java.util.List;

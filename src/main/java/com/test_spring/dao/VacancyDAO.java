@@ -1,6 +1,6 @@
 package com.test_spring.dao;
 
-import com.test_spring.bean.Vacancy;
+import com.test_spring.models.Vacancy;
 
 import java.util.List;
 
@@ -11,19 +11,7 @@ import java.util.List;
 public interface VacancyDAO {
 
     void createTable();
-    //TODO rename to saveVacancy
-    //TODO into "addVacancy" method insert Vacancy, not fields
-    void addVacancy(String link,
-                    String title,
-                    String city,
-                    String description,
-                    String dateOfPublication,
-                    String typeOfEmployment,
-                    String companyName,
-                    String experienceOfWork,
-                    boolean show,
-                    String keyWord);
-
+    void saveVacancy(Vacancy vacancy);
     List<Vacancy> getVacanciesFromDB();
 
 }

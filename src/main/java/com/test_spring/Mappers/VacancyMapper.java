@@ -1,13 +1,13 @@
-package com.test_spring.bean;
+package com.test_spring.Mappers;
 
 
+import com.test_spring.models.Vacancy;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 
-//TODO create separate package "Mapper" and insert all mappers into
 public class VacancyMapper implements RowMapper<Vacancy> {
 
     @Override

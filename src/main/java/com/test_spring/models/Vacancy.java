@@ -1,4 +1,4 @@
-package com.test_spring.bean;
+package com.test_spring.models;
 
 
 /**
@@ -14,10 +14,10 @@ public class Vacancy {
     private String description;
     private String dateOfPublication;
     private String typeOfEmployment;
-    private String companyName;
+    private String companyName; // TODO create class Company(name, logo, email, tel ,about, location)
     private String experienceOfWork;
     private boolean show;
-    private String keyWord;
+    private String keyWord;    // TODO change to array
 
     public Vacancy() {
     }
@@ -60,6 +60,7 @@ public class Vacancy {
         return new Vacancy().new Builder();
     }
 
+    // Builder Pattern
     public class Builder {
 
         private Builder() {

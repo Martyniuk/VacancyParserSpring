@@ -1,7 +1,7 @@
 package com.test_spring.controller;
 
 
-import com.test_spring.bean.Vacancy;
+import com.test_spring.models.Vacancy;
 import com.test_spring.dao.impl.JDBCVacancyDAO;
 import com.test_spring.strategies.AstoundStrategy;
 import com.test_spring.strategies.CiklumStrategy;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 
-import java.util.ArrayList;
 import java.util.List;
 
 

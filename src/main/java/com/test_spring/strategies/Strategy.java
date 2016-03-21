@@ -1,12 +1,11 @@
 package com.test_spring.strategies;
 
-import com.test_spring.bean.Vacancy;
+import com.test_spring.models.Vacancy;
 
 import java.util.List;
 
-/**
- * Created by vladimir on 21.01.16.
- */
+// TODO rewrite all parsers.
 public interface Strategy {
     List<Vacancy> getVacancies(String searchCity, String searchPrLanguage);
+
 }
